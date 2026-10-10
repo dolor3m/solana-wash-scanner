@@ -1,0 +1,14 @@
+{
+  "name": "solana-wash-scanner",
+  "version": "1.0.0",
+  "description": "Heuristic scanner for wash-style circular trading on Solana token pools.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "scan": "node --experimental-strip-types src/cli.ts",
+    "test": "node --experimental-strip-types --test src/lib/wash/detect.test.ts"
+  }
+}
